@@ -1,0 +1,16 @@
+* {
+	box-sizing: border-box;
+}
+.conteiner {
+	width: 1170px;
+	margin: 0 auto;
+}
+.row:after {
+	content: '';
+	clear: both;
+	display: block;
+}
+.col {
+	width: 50%;
+	float: left;
+}
