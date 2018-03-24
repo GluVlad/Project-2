@@ -1,6 +1,10 @@
 footer {
-	background-color: grey;
+	background-color: black;
 	height: 690px;
+	background-image: url(images/footer.png);
+	background-repeat: no-repeat;
+	-webkit-background-size: 100%;
+	background-size: 100%;
 }
 .contact_us {
 	font-size: 42px;
@@ -17,6 +21,7 @@ footer {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 400;
 	padding: 0 0 15px 0;
+	color: #8d8d8d;
 }
 .get_in {
 	font-size: 24px;
@@ -25,11 +30,12 @@ footer {
 	color: white;
 	padding: 0 0 15px 0;
 }
-.padd5 {
+.inform {
 	font-size: 14px;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 400;
 	padding: 0 0 5px 0;
+	color: #a191bd;
 }
 .img {
 	height: 40px;
@@ -58,7 +64,7 @@ footer {
 	border-radius: 5px;
 	margin: 30px 0 0 15px; ;
 }
-input[type="button"] {
+.footer_button {
 	height: 50px;
 	width: 170px;
     border-radius: 5px;

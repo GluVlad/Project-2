@@ -1,3 +1,75 @@
 main {
 	min-height: calc(100vh - 690px);
 }
+.service_caption {
+	margin:45px 0 30px 0;
+	font-size: 24px;
+	text-align: center;
+	color: #7d8088;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+}
+.service_text {
+	font-size: 14px;
+	color: #7d8088;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	padding: 15px;
+	line-height: 15px;
+}
+.service_button {
+	border-radius: 5px;
+    color: white;
+    background-color: #44c0c2;
+    width: 100px;
+    height: 30px;
+    margin: 0 0 100px 80px;
+}
+.service_custom {
+	height: 105px;
+	width: 105px;
+	background-image: url(images/custom.png);
+	margin: 105px 0 0 80px;
+}
+.service_web {
+	height: 105px;
+	width: 105px;
+	background-image: url(images/web.png);
+	margin: 105px 0 0 80px;
+}
+.service_blog {
+	height: 105px;
+	width: 105px;
+	background-image: url(images/blog.png);
+	margin: 105px 0 0 80px;
+}
+.service_mobile {
+	height: 105px;
+	width: 105px;
+	background-image: url(images/mobile.png);
+	margin: 105px 0 0 80px;
+}
+.portfolio {
+	font-size: 42px;
+	color: black;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	text-align: center;
+	margin: 50px 0 65px 0;
+}
+.col_3 {
+	width: 33.33333333%;
+	float: left;
+	padding: 0 15px 15px 10px;
+}
+.portfolio_button {
+	height: 60px;
+	width: 230px;
+	border-radius: 5px;
+	color: white;
+	background-color: #44c0c2;
+	font-size: 24px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	margin: 60px 0 100px 470px;
+}
