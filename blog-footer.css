@@ -1,0 +1,18 @@
+footer {
+	height: 182px;
+}
+.copyright {
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	text-align: center;
+	color: #9f9f9f;
+}
+.footer-img {
+	height: 40px;
+	width: 40px;
+	margin:45px 0 30px 0;
+}
+.div-img {
+	text-align: center;
+}

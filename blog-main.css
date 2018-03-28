@@ -1,0 +1,139 @@
+main {
+	min-height: calc(100vh - 182px);
+}
+.blog {
+	width: 1170px;
+	height: 175px;
+	color: white;
+	font-size: 42px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	text-align: center;
+	line-height: 175px;
+	background-color: #49cbcd;
+	background-image: url(images/blog-bg.png);
+}
+[class*="col"] {
+	float: left;
+}
+.col-70 {
+	width: 70%;
+}
+.col-5 {
+	width: 5%;
+}
+.col-25 {
+	width: 25%;
+}
+.blog-search {
+	width: 270px;
+	height: 40px;
+	margin: 95px 0 60px 0;
+	padding: 15px;
+	border-color: 0px #bababa;
+}
+.div-search {
+	position: relative;
+}
+.search-button {
+	position: absolute;
+}
+.fallow {
+	font-size: 26px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+}
+.img {
+	height: 40px;
+	width: 40px;
+	margin: 30px 0 45px 0;
+}
+[type*="email"] {
+	width: 270px;
+	height: 40px;
+	padding: 15px;
+	color: #777555;
+	border-color: 0px #bababa;
+}
+[type*="button"] {
+	width: 170px;
+	height: 40px;
+	border-radius: 5px;
+	background-color: #49cbcd;
+	color: white;
+	margin: 30px 0 53px 0;
+}
+.categories li {
+	padding-top: 30px;
+	height: 35px;
+	font-size: 13px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;	
+	color: #5a6270;
+}
+.categories ul {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 26px;
+}
+.categories li:hover {
+	color: white;
+	background-color: #485460;
+	border-radius: 5px;
+}
+.post {
+	margin: 60px 0 30px 0;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 26px;
+	color: #414a5a;
+}
+.post-img {
+	margin-bottom: 40px;
+}
+.post_text {
+	margin-bottom: 40px;
+}
+.read_more {
+	float: right;
+}
+.tag {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 26px;
+	color: #4e5665;
+	margin: 60px 0 35px 0;
+}
+.tags{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	color:#4e5665;
+	height: 30px;
+	padding: 15px;
+	background-color: #f8f9fb;
+	float: left;
+	margin:10px;
+	border-radius: 5px;
+}
+.tags:hover {
+	background-color: #49cbcd;
+	color: white;
+	border-radius: 5px;
+}
+.recent_post ul {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 26px;
+	margin-top: 60px;
+}
+.recent_post li {
+	padding-top: 30px;
+	height: 35px;
+	font-size: 13px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;	
+	color: #5a6270;
+	list-style-type: disc;
+	color: #49cbcd;
+}
