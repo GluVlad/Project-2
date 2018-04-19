@@ -136,7 +136,6 @@ main {
 	font-size: 13px;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 400;	
-	color: #5a6270;
 	list-style-type: disc;
 	color: #49cbcd;
 }
@@ -186,6 +185,9 @@ h1 {
 	color: #5a6270;
 	line-height: 17px;
 }
+.png-png {
+	width: 702px;
+}
 h2 {
 	font-size: 24px;
 	font-family: 'Open Sans', sans-serif;
@@ -218,4 +220,117 @@ blockquote :last-child {
 	margin-top: 200px;
 	font-size: 23px;
 	text-align: center;
+}
+.recent_post > ul > li > a {
+	color: #414a5a;
+}
+.comments {
+	margin-top: 60px;
+}
+.comment > img {
+	float: left;
+	margin-right: 30px;
+	margin-top: -10px;
+}
+.comment  a {
+	color: #a88fd8;
+}
+.comment {
+	color: #414a5a;	
+	margin-bottom: 100px;
+}
+.comment_caption {
+	font-weight: bold;
+	margin-top:40px;
+}
+.comment_caption > a {
+	font-weight: normal;
+}
+.comment_text {
+	font-size: 14px;
+	margin: 20px;
+}
+.answer {
+		margin-left: 140px;
+}
+.leave_comment {
+	font-size: 24px;
+	margin: 20px;
+}
+.field_name {
+	width: 350px;
+	height: 50px;
+	padding: 15px;
+}
+.field_text{
+	width: 730px;
+	height: 215px;
+}
+.field_button {
+	float: right;
+	margin-right: 5px;
+	font-size: 16px;
+	margin-top: -40px;
+}
+.feedback {
+	float: left;
+}
+.feedback input:nth-child(1) {
+	margin: 10px;
+	border-radius: 5px;
+}
+.feedback input:nth-child(2) {
+	float: right;
+	margin: 10px;
+	border-radius: 5px;
+}
+.feedback input:nth-child(3) {
+	margin: 10px;
+	border-radius: 5px;
+}
+.feedback input:nth-child(3):focus {
+	border-color: violet;
+}
+.feedback input:nth-child(2):focus {
+	border-color: violet;
+}
+.feedback input:nth-child(1):focus {
+	border-color: violet;
+}
+
+input:checked + label {
+	position: relative;
+
+}
+.feedback > input[type="checkbox"] {
+	display: none;
+
+}
+label:before {
+	content: "";
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	border: 1px solid #ebebeb;
+	vertical-align: middle;
+	border-radius: 5px;
+
+}
+input:checked +label:after {
+	position: absolute;
+	content: "";
+	width: 10px;
+	height: 10px;
+	display: inline-block;
+	border: 1px solid black;
+	vertical-align: middle;
+	background: black;
+	left: 5px;
+	top: 4px;
+	border-radius: 5px;
+}
+label {
+	margin: 10px;
+	display: block;
+	margin-top: 40px
 }
